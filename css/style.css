@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --first-color: #8154E8;
+    --second-color: #121212;
+    --third-color: #FFFFFF;
+}
+
+body {
+    height: 3000px;
+    background-color: #eee;
+}
+
+
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* gap:100px; */
+    background-color: var(--third-color);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    /* padding-top: 20px;
+    padding-bottom:20px ;
+    margin-bottom: 60px; */
+    padding: 20px 0;
+
+}
+
+.header .container .nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    list-style: none;
+
+}
+
+.header .nav ul li a {
+    text-decoration: none;
+    color: #848484;
+}
+
+.header .container .btn {
+    background-color: var(--second-color);
+
+}
+
+.btn {
+    color: var(--third-color);
+    padding: 7px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+}
+
+/* hero-section */
+
+.hero-section .container {
+
+
+    background-image: url("../image/photo_٢٠٢٦-٠٤-١١_٠٠-٢٠-١١.jpg");
+    background-size: cover;
+background-position: center center;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    color: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 90px;
+}
+
+.hero-section .container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.hero-section .container .one {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+    line-height: 0;
+
+}
+
+
+
+.hero-section .container .one h1 {
+    font-size: 250px;
+
+}
+
+.hero-section .container .two {
+    position: absolute;
+    top: 440px;
+    right: 10px;
+    width: 25%;
+    line-height: 1.2;
+
+}
+.hero-section .container .btn{
+    background-color: var(--first-color);
+    margin-top: 20px;
+}
+
+@media (max-width:767px) {
+      .nav,
+      .btn {
+        display: none;
+    }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    .container {
+        width: 750px;
+    }
+  
+
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: 1170px;
+    }
+}
+
+.container {
+    margin: auto;
+    padding-left: 70px !important;
+    padding-right: 70px !important;
+}
