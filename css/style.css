@@ -68,7 +68,7 @@ body {
 
     background-image: url("../image/photo_٢٠٢٦-٠٤-١١_٠٠-٢٠-١١.jpg");
     background-size: cover;
-background-position: center center;
+    background-position: center center;
     background-repeat: no-repeat;
     min-height: 600px;
     color: #FFFFFF;
@@ -84,16 +84,20 @@ background-position: center center;
 
 .hero-section .container .one {
     position: absolute;
-    top: 200px;
+    top: 280px;
     left: 20px;
-    line-height: 0;
+
+
 
 }
 
 
 
 .hero-section .container .one h1 {
-    font-size: 250px;
+    margin: 0 ;
+    padding: 0;
+    font-size: 300px;
+    line-height: 0.8;
 
 }
 
@@ -105,14 +109,16 @@ background-position: center center;
     line-height: 1.2;
 
 }
-.hero-section .container .btn{
+
+.hero-section .container .btn {
     background-color: var(--first-color);
     margin-top: 20px;
 }
 
 @media (max-width:767px) {
-      .nav,
-      .btn {
+
+    .nav,
+    .btn {
         display: none;
     }
 }
@@ -121,7 +127,7 @@ background-position: center center;
     .container {
         width: 750px;
     }
-  
+
 
 }
 
