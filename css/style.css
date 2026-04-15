@@ -125,7 +125,7 @@ body {
 @media (max-width:767px) {
     .hero-section .container .one {
         position: absolute;
-        top: 191px;
+        top: 180px;
         left: 24px;
     }
 }
@@ -168,7 +168,7 @@ body {
 @media (max-width:767px) {
     .hero-section .container .two {
         top: 368px;
-        right: 89px;
+        right: 84px;
         width: 69%;
     }
 }
@@ -223,7 +223,7 @@ body {
 
     .features-section .container h2 {
 
-        font-size: 29px;
+        font-size: 27px;
         margin: 15px 0;
 
     }
@@ -323,17 +323,20 @@ body {
 
 
 }
-@media(min-width:768px) and (max-width:991px){
+
+@media(min-width:768px) and (max-width:991px) {
     .target .container .target-section .info-content {
-    width: 25%;
+        width: 25%;
 
-}
-.target .container .target-section .info-content h4 {
-    font-size: 35px;
-  
+    }
 
+    .target .container .target-section .info-content h4 {
+        font-size: 35px;
+
+
+    }
 }
-}
+
 @media (max-width:767px) {
 
 
@@ -349,8 +352,8 @@ body {
     }
 
     .target .container .target-section .info-content h4 {
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 29px;
+        margin-bottom: 30px;
 
 
     }
